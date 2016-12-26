@@ -22,6 +22,10 @@ On Yosemite and earlier:
     ```sudo nvram boot-args="kext-dev-mode=1"```
 2. reboot your machine. 
 
+On Mountain Lion (10.8) and earlier:
+
+Do nothing. You CAN'T LOAD a digitally signed kext would not load. One should load the ordinary kext right away. 
+
 <h4>Allow apps to run</h4>
 On El Capitan and above you may have to enable running 3rd-party applications before you can run the Installer and the Control Panel:
 

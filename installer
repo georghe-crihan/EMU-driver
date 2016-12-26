@@ -42,7 +42,11 @@ echo; echo;
 if [ "$osversion" -gt "10" ] ; then
 	driverversion="v11"
 else
+  if [ "$osversion" -gt "8" ] ; then
 	driverversion="v9"
+  else
+        driverversion="v8"
+  fi
 fi
 cp -r "$driverversion/EMUUSBAudio.kext" .
 

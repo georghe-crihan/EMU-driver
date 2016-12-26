@@ -3,6 +3,10 @@
 EMU-USB driver
 =============
 
+I needed the driver for Mountain Lion (10.8), EMU0202, hence the fork.
+In addition, I wanted to free myself from the perpetually changing xcode SDK.
+There's the Makefile, alowing to build under various xcode versions.
+
 OSX driver for Creative Labs EMU USB
 
 * Tested on Mavericks, Yosemite, El Capitan and Sierra.
